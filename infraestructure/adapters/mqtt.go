@@ -21,7 +21,7 @@ type ConnAMQP struct{
 
 
 func NewConn()*ConnAMQP{
-	conn, err := amqp.Dial("amqp://guest:guest@13.220.254.127:5672/")
+	conn, err := amqp.Dial("amqp://guest:guest@98.84.72.237:5672/")
 	failOnError(err, "No se pudo conectar a RabbitMQ")
 	return &ConnAMQP{conn: conn}
 }

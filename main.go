@@ -13,7 +13,7 @@ router := gin.Default()
 
 	routes.SetUpRoutes(router)
 
-	port :=":8080"
+	port :=":8085"
 	log.Println("Servidor corriendo en el puerto", port)
 	log.Fatal(router.Run(port))
 
