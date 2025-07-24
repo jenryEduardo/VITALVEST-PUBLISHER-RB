@@ -15,4 +15,8 @@ type DatosSensor struct {
 	MLX90614 struct {
 		TempObjeto   float64 `json:"temp_objeto"`
 	} `json:"mlx90614"`	
+
+	GSR struct{
+		Porcentaje int
+	}`json:"GSR"`	
 }
